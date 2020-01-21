@@ -23,7 +23,7 @@ function _str_to_num(str){
  * 
  * @returns {Array} 
  */
-function random_shuffle(key,array,rounds = key.length){
+function random_shuffle(key,array){
 	if(!Array.isArray(array)){
 		return "Should be an instance of array";
 	}
